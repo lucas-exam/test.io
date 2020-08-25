@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			img {
+				width: 500px;
+				height: auto;
+				display: block;
+				margin: 0 auto;
+				/* 过渡效果 */
+				transition: all 2s;
+			}
+			img:hover {
+				-webkit-filter: none;
+			}
+			.img1 {
+				/* 滤镜属性
+				 * grayscale：设置灰度，1是百分百，0是百分0
+				*/
+				-webkit-filter: grayscale(0.8);
+			}
+			.img2 {
+				/* 滤镜属性
+				 * brightness：亮度，默认值是1，正常亮度
+				*/
+			   -webkit-filter: brightness(2);
+			}
+			.img3 {
+				/* 滤镜属性
+				 * sepia：褐色，1是百分之一百，正常亮度
+				*/
+				-webkit-filter: sepia(1);
+			}
+			.img4 {
+				/* 滤镜属性
+				 * blur：模糊度，单位为像素
+				*/
+			   -webkit-filter: blur(5px);
+			}
+			.img5 {
+				/* 滤镜属性
+				 * contrast：对比度，正常就是1，如果调成0就没有任何对比度，变成灰色
+				*/
+			   -webkit-filter: contrast(3);
+			}
+			.img6 {
+				/* 滤镜属性
+				 * saturate：饱和度，正常就是1
+				*/
+			   -webkit-filter: saturate(2);
+			}
+			.img7 {
+				/* 滤镜属性
+				 * invert：胶片底色效果
+				*/
+			   -webkit-filter: invert(1);
+			}
+			.img8 {
+				/* 滤镜属性
+				 * hue-rotate：色相旋转
+				*/
+			   -webkit-filter: hue-rotate(100deg);
+			}
+			.img9 {
+				-webkit-filter: blur(10px) brightness(20) grayscale(1);
+				transition: all 10s;
+			}
+			.img9.hover {
+				-webkit-filter: blur(0px) brightness(1) grayscale(1);
+			}
+		</style>
+	</head>
+	<body>
+		<img class="img1" src="img/503d269759ee3d6d66a2455d49166d224e4adec4.png" >
+		<img class="img2" src="img/503d269759ee3d6d66a2455d49166d224e4adec4.png" >
+		<img class="img3" src="img/503d269759ee3d6d66a2455d49166d224e4adec4.png" >
+		<img class="img4" src="img/503d269759ee3d6d66a2455d49166d224e4adec4.png" >
+		<img class="img5" src="img/503d269759ee3d6d66a2455d49166d224e4adec4.png" >
+		<img class="img6" src="img/503d269759ee3d6d66a2455d49166d224e4adec4.png" >
+		<img class="img7" src="img/503d269759ee3d6d66a2455d49166d224e4adec4.png" >
+		<img class="img8" src="img/503d269759ee3d6d66a2455d49166d224e4adec4.png" >
+		
+		<img class="img9" src="img/503d269759ee3d6d66a2455d49166d224e4adec4.png" >
+	</body>
+</html>
